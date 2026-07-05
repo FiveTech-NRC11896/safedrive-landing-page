@@ -48,6 +48,7 @@
           ${c.features.map(f => `<li>${f}</li>`).join('')}
         </ul>
         <a href="https://polite-hill-08013890f.7.azurestaticapps.net/iam/sign-up?plan=${encodeURIComponent(c.name)}&price=${encodeURIComponent(c.price)}" class="btn-plan ${i === featuredIdx ? 'btn-plan-primary' : 'btn-plan-outline'}">${d.btn_hire}</a>
+      
       </div>`).join('');
   }
 
